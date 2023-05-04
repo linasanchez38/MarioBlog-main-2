@@ -1,0 +1,133 @@
+/*LOGIN*/
+.activate button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #e02b20;
+  color: snow;
+  text-transform: uppercase;
+  padding: 0.5rem 0.5rem;
+  font-weight: 700;
+  font-family: "Tilt Neon", display;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  width: 7rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.activate button:hover {
+  background-color: #1d3d97;
+}
+
+/*usuario-contraseña*/
+.login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(240, 240, 240, 0.7);
+  z-index: 2;
+  gap: 1rem;
+}
+
+.login fieldset {
+  width: 38%;
+  color: snow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 0 0 0.25rem 0 rgba(240, 240, 240, 0.7);
+}
+
+.login label {
+  align-self: center;
+  padding: 0.5rem 0.5rem;
+  background-color: #e02b20;
+  border-radius: 0.5rem 0 0 0.5rem;
+  font-weight: 400;
+  font-family: "Tilt Neon", display;
+  width: 6.5rem;
+}
+
+/*espacio*/
+.login input {
+  flex: 1;
+  outline: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 0 1rem;
+  font-family: "Catamaran", sans-serif;
+}
+
+/*INGRESAR*/
+.login button[type="submit"] {
+  background-color: #1d3d97;
+  color: snow;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.8rem 1rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  font-family: "Tilt Neon", display;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.login button[type="submit"]:hover{
+  background-color: #e02b20;
+}
+
+/*LOGOUT*/
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #e02b20;
+  color: snow;
+  text-transform: uppercase;
+  padding: 0.5rem 0.5rem;
+  font-weight: 700;
+  font-family: "Tilt Neon", display;
+  font-size: 1rem;
+  outline: none;
+  width: 7rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.logout button:hover{
+  background-color: #1d3d97;
+}
+
+/*SALIR*/
+.login button[type="button"] {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #e02b20;
+  color: snow;
+  text-transform: uppercase;
+  padding: 0.5rem 0.5rem;
+  font-weight: 700;
+  font-family: "Tilt Neon", display;
+  width: 7rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.login button[type="button"]:hover{
+  background-color: #1d3d97;
+}

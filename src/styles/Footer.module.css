@@ -1,0 +1,43 @@
+.container {
+  display: block;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.video iframe {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: block;
+  margin-top: 35rem;
+  justify-content: center;
+}
+
+.footer a {
+  border: 1em;
+  border-radius: 1em;
+  background-color: rgb(163, 12, 12);
+  text-decoration: none;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0.5rem;
+  color: snow;
+}
+
+.video h1 {
+  font-size: 3rem;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-size: 1.5rem;
+}

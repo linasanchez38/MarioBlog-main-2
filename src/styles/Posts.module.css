@@ -1,0 +1,36 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 4rem;
+  margin-left: 0.3rem;
+}
+
+.gallery picture img {
+  border-radius: 1rem;
+}
+
+.gallery article {
+  cursor: pointer;
+  background-color: #820000;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: snow;
+  border-radius: 1rem;
+  transition: all 1s ease;
+}
+
+.gallery article:hover {
+  opacity: 0.85;
+  border: solid 0.25rem white;
+  scale: 1.2;
+}
+
+.gallery article h2 {
+  font-family: 1rem;
+  padding: 1rem;
+  font-family: "Catamaran", display;
+  font-weight: 300;
+}

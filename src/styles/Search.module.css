@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  background-color: #ff0004;
+  color: snow;
+  padding: 0.5rem 1rem;
+  outline: none;
+  width: 50%;
+  height: 2rem;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Golos Text", sans-serif;
+  border-radius: 1rem;
+  display: flex;
+  justify-self: center;
+  margin-top: 4.5rem;
+  transition: all 1s ease;
+}
+
+.search::placeholder {
+  opacity: 1;
+  color: snow;
+
+}
+
+.search:hover {
+  background-color: #1d3d97;
+}

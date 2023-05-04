@@ -1,0 +1,49 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-image: url("../../public/Mariologo.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 27vh;
+  width: 100vw;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+
+.menu a {
+  background-color: #ff0004;
+  color: white;
+  padding: 0.5rem 1.3rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  width: 10rem;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #1d3d97;
+}
+
+
+@media (max-width: 1147px) {
+  .menu {
+    gap: 0.5rem;
+    height: 27vh;
+    width: 100vw;
+    align-items: end;
+    margin-bottom: 0.5rem;
+  }
+
+  .menu a {
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 6rem;
+  }
+}

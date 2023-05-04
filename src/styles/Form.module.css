@@ -1,0 +1,193 @@
+/*PELICULA*/
+.container {
+  height: 145vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-top: 15rem;
+  gap: 2rem;
+}
+
+.infovideo {
+  text-align: center;
+  justify-content: center;
+  line-height: 4rem;
+}
+
+/*video-youtube*/
+.infovideo iframe {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  width: 70rem;
+  height: 35rem;
+}
+
+/*título*/
+.infovideo h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 10rem;
+}
+
+/*VER PELÍCULA*/
+.infovideo a {
+  text-transform: uppercase;
+  border-radius: 1em;
+  background-color: red;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  color: snow;
+}
+
+.infovideo a:hover{
+  background-color: #1d3d97;
+}
+
+/*párrafo*/
+.infovideo p {
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/*formulario*/
+.contenedor {
+  background: url(../img/formmario.jpeg) no-repeat center;
+  background-size: cover;
+  display: inline-block;
+  flex-direction: column;
+  height: 80vh;
+  width: 50vw;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem black;
+  transition: all 0.5s ease;
+  margin-top: 5rem;
+}
+
+.contenedor:hover {
+  opacity: 0.85;
+  border: solid 0.2rem white;
+}
+
+/*frase*/
+.contenedor p {
+  color: black;
+  justify-content: center;
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.2rem;
+  width: 70vh;
+  line-height: 1.5rem;
+  padding: 2rem;
+  margin-top: 2.5rem;
+  margin-left: 6.5rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*espacios*/
+.input {
+  color: gray;
+  align-self: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: "Catamaran", display;
+  width: 40vw;
+  height: 3rem;
+  margin-bottom: 15px;
+}
+
+/*espacio-opinion*/
+.opinion {
+  color: gray;
+  border-radius: 5px;
+  font-family: "Catamaran", display;
+  padding: 5px 10px;
+  width: 40vw;
+  height: 10rem;
+  margin-top: 0.5rem;
+}
+
+/*PUBLICAR*/
+.boton {
+  background-color: snow;
+  color: black;
+  margin: 1rem;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Tilt Neon";
+  font-size: 15px;
+}
+
+.boton:hover {
+  background-color: #1d3d97;
+  color: snow;
+}
+
+
+@media (max-width: 1147px) {
+  .infovideo iframe {
+    width: 40rem;
+    height: 20rem;
+  }
+
+  .infovideo p {
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .contenedor {
+    height: 80vh;
+    width: 80vw;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem black;
+    transition: all 0.5s ease;
+    margin-top: 2rem;
+  }
+
+  .contenedor p {
+    color: black;
+    justify-content: center;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: "Catamaran", sans-serif;
+    padding: 0.5rem;
+    line-height: 0.5rem;
+  }
+
+  .input {
+    color: gray;
+    align-self: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: "Catamaran", display;
+    width: 70vw;
+    height: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .opinion {
+    color: gray;
+    border-radius: 5px;
+    font-family: "Catamaran", display;
+    padding: 5px 10px;
+    width: 70vw;
+    height: 10rem;
+    margin-top: 1rem;
+  }
+}

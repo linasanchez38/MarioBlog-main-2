@@ -1,0 +1,25 @@
+.list {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 100%;
+  padding: 1rem;
+  gap: 1rem;
+  list-style: none;
+}
+
+.list li {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #d0d5dd;
+  color: black;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+}
+
+.list li h2 {
+  font-weight: 300;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
